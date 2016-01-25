@@ -1,0 +1,7 @@
+== README
+
+Ticketee is a project and ticketing rails application.
+
+I am building this app to practice BDD and TDD.
+
+Change ReadME.
