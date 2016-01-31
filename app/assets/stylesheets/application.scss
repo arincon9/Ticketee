@@ -2,14 +2,12 @@
 @import "bootstrap";
 @import "font-awesome";
 
-.page-header {
+header {
+  @extend .page-header;
   position: relative;
   padding-bottom: 0px;
   &:first-child {
     margin-top: 20px;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    max-width: 55%;
   }
 }
 

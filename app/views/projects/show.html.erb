@@ -1,6 +1,5 @@
-<div class="page-header">
+<header>
   <h1><%= @project.name %></h1>
-
   <ul class="actions">
     <li><%= link_to "Edit Project", edit_project_path(@project),
                     class: "edit" %></li>
@@ -9,4 +8,4 @@
                     data: { confirm: "Are you sure you want to delete this project?" },
                     class: "delete" %></li>
   </ul>
-</div>
+</header>
